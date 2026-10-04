@@ -1,0 +1,7 @@
+threshold,hits,correct_hits,false_hits,false_hits_with_number_guard,correct_hits_with_number_guard
+0.7,28,26,2,1,26
+0.75,27,26,1,0,26
+0.8,27,26,1,0,26
+0.85,23,23,0,0,23
+0.9,20,20,0,0,20
+0.95,5,5,0,0,5

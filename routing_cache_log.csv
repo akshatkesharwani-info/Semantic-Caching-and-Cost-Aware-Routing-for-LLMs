@@ -1,0 +1,185 @@
+setup,query,group,model,cost,latency,hit,false_hit,escalated,escalation_reason,similarity,correct,answer
+A: always strong,What is the capital of France?,0,openai/gpt-oss-120b,5.535e-05,0.7014298439025879,False,False,False,,0.0,True,paris is the capital city of france.
+A: always strong,What is the capital of Germany?,1,openai/gpt-oss-120b,5.685e-05,0.6242203712463379,False,False,False,,0.0,True,the capital of germany is berlin.
+A: always strong,Explain what overfitting is in machine learning,2,openai/gpt-oss-120b,8.565e-05,1.0466537475585938,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+A: always strong,How do I reverse a string in Python?,3,openai/gpt-oss-120b,9.989999999999999e-05,0.8916666507720947,False,False,False,,0.0,True,"use slicing:  ```python s = ""hello"" rev = s[::-1]   # 'olleh' ```  or with `reversed`:  ```python re"
+A: always strong,What is the difference between SQL WHERE and HAVING?,4,openai/gpt-oss-120b,8.67e-05,0.7923088073730469,False,False,False,,0.0,True,**where** filters rows before any grouping or aggregation occurs. it can reference only columns from
+A: always strong,Compare random forest and gradient boosting and say when to use each,5,openai/gpt-oss-120b,0.00013859999999999998,0.9171342849731445,False,False,False,,0.0,True,"**random forest** - builds many deep, unpruned trees in parallel and averages their predictions. it'"
+A: always strong,Give three tips for a data analyst resume,6,openai/gpt-oss-120b,0.00010575000000000001,0.8891313076019287,False,False,False,,0.0,True,"1. **show measurable impact** - list projects with concrete results (e.g., ""reduced churn by 12% usi"
+A: always strong,What does RAG stand for in AI?,7,openai/gpt-oss-120b,0.0001224,0.7818174362182617,False,False,False,,0.0,True,rag stands for **retrieval-augmented generation**. it's an ai architecture that combines a large lan
+A: always strong,Explain step by step how gradient descent works,8,openai/gpt-oss-120b,0.00015525,1.114513874053955,False,False,False,,0.0,True,1. **initialize** θ (parameters) with random values.   2. **compute loss** l(θ) on the training data
+A: always strong,What is 15% of 240?,9,openai/gpt-oss-120b,6.465e-05,0.6978697776794434,False,False,False,,0.0,True,15 % of 240 = 0.15 × 240 = **36**.
+A: always strong,What is 15% of 250?,10,openai/gpt-oss-120b,6.24e-05,0.7407915592193604,False,False,False,,0.0,True,15 % of 250 is \(0.15 \times 250 = 37.5\).
+A: always strong,What is the capital of Australia?,11,openai/gpt-oss-120b,5.835e-05,0.6995539665222168,False,False,False,,0.0,True,the capital of australia is **canberra**. it's located in the australian capital territory and serve
+A: always strong,What is the capital of Austria?,12,openai/gpt-oss-120b,4.41e-05,0.7985608577728271,False,False,False,,0.0,True,vienna is the capital city of austria.
+A: always strong,Tell me France's capital city,0,openai/gpt-oss-120b,4.7699999999999994e-05,0.6434566974639893,False,False,False,,0.0,True,france's capital city is **paris**.
+A: always strong,Tell me Germany's capital city,1,openai/gpt-oss-120b,4.62e-05,0.8750324249267578,False,False,False,,0.0,True,germany's capital city is **berlin**.
+A: always strong,What does overfitting mean in ML? Explain,2,openai/gpt-oss-120b,9.18e-05,1.0524706840515137,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+A: always strong,Python: reverse a string,3,openai/gpt-oss-120b,0.00012855,0.9408221244812012,False,False,False,,0.0,True,"```python s = ""hello world"" rev = s[::-1]          # slicing # or rev = ''.join(reversed(s)) print(r"
+A: always strong,WHERE vs HAVING in SQL,4,openai/gpt-oss-120b,0.0001002,0.8003993034362793,False,False,False,,0.0,True,**where** filters rows **before** grouping. it works on individual table columns and cannot use aggr
+A: always strong,When should I use random forest instead of gradient boosting? Compare them,5,openai/gpt-oss-120b,0.00015,0.9326901435852051,False,False,False,,0.0,True,**use random forest when:**   - you need fast training and easy tuning.   - data has many noisy feat
+A: always strong,3 resume tips for data analysts,6,openai/gpt-oss-120b,0.0001332,0.8721413612365723,False,False,False,,0.0,True,"1. **show impact with numbers** - list projects with concrete metrics (e.g., ""increased forecast acc"
+A: always strong,RAG full form in AI,7,openai/gpt-oss-120b,0.00010095,0.8102993965148926,False,False,False,,0.0,True,rag stands for **retrieval-augmented generation**. it's an ai approach that combines a large languag
+A: always strong,Walk me through gradient descent step by step,8,openai/gpt-oss-120b,0.00016875,0.9876153469085693,False,False,False,,0.0,True,"1. **initialize** parameters θ (e.g., random values).   2. **compute loss** j(θ) on the training dat"
+A: always strong,Calculate 15 percent of 240,9,openai/gpt-oss-120b,6.285e-05,0.8515441417694092,False,False,False,,0.0,True,15 % of 240 = 0.15 × 240 = **36**.
+A: always strong,Calculate 15 percent of 250,10,openai/gpt-oss-120b,6.585e-05,0.783271074295044,False,False,False,,0.0,True,15 % of 250 = 0.15 × 250 = **37.5**.
+A: always strong,Tell me Australia's capital city,11,openai/gpt-oss-120b,6.18e-05,0.7006669044494629,False,False,False,,0.0,True,australia's capital city is **canberra**. it's located in the australian capital territory (act) and
+A: always strong,Tell me Austria's capital city,12,openai/gpt-oss-120b,4.7699999999999994e-05,0.6654031276702881,False,False,False,,0.0,True,austria's capital city is **vienna**.
+A: always strong,Which city is the capital of France?,0,openai/gpt-oss-120b,4.6500000000000005e-05,0.6640758514404297,False,False,False,,0.0,True,paris is the capital city of france.
+A: always strong,Which city is the capital of Germany?,1,openai/gpt-oss-120b,4.7249999999999997e-05,0.6663610935211182,False,False,False,,0.0,True,berlin is the capital city of germany.
+A: always strong,Can you explain overfitting in machine learning models,2,openai/gpt-oss-120b,9.329999999999999e-05,0.934809684753418,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+A: always strong,What is the way to reverse a string in Python?,3,openai/gpt-oss-120b,8.595e-05,0.7098331451416016,False,False,False,,0.0,True,"use slicing:  ```python s = ""hello"" rev = s[::-1]   # 'olleh' ```  or with `reversed`:  ```python re"
+A: always strong,How are HAVING and WHERE different in SQL?,4,openai/gpt-oss-120b,0.00011729999999999999,2.9306116104125977,False,False,False,,0.0,True,**where** filters individual rows **before** any `group by` is applied; it cannot reference aggregat
+A: always strong,Random forest vs gradient boosting comparison and use cases,5,openai/gpt-oss-120b,0.00018690000000000002,3.3364028930664062,False,False,False,,0.0,True,"**random forest** - bagged decision trees, each built on a random subset of features and samples.   "
+A: always strong,What are three good tips for writing a data analyst resume?,6,openai/gpt-oss-120b,0.00013035,3.02512264251709,False,False,False,,0.0,True,"- highlight measurable impact: list specific projects and quantify results (e.g., ""improved reportin"
+A: always strong,"In AI, what is RAG short for?",7,openai/gpt-oss-120b,0.0001158,3.1343398094177246,False,False,False,,0.0,True,rag stands for **retrieval-augmented generation**. it's a technique that combines a large language m
+A: always strong,How does gradient descent work? Explain in steps,8,openai/gpt-oss-120b,0.0001374,3.011066198348999,False,False,False,,0.0,True,1. **initialize** parameters (weights) with random values.   2. **compute loss** by feeding the trai
+A: always strong,What is fifteen percent of 240?,9,openai/gpt-oss-120b,5.9250000000000004e-05,2.7380590438842773,False,False,False,,0.0,True,15 % of 240 is \(0.15 \times 240 = 36\).
+A: always strong,What is fifteen percent of 250?,10,openai/gpt-oss-120b,6.3e-05,2.745452880859375,False,False,False,,0.0,True,15 % of 250 is \(0.15 \times 250 = 37.5\).
+A: always strong,Which city is the capital of Australia?,11,openai/gpt-oss-120b,4.2749999999999996e-05,2.7643661499023438,False,False,False,,0.0,True,canberra is the capital city of australia.
+A: always strong,Which city is the capital of Austria?,12,openai/gpt-oss-120b,4.6500000000000005e-05,2.6353793144226074,False,False,False,,0.0,True,vienna is the capital city of austria.
+B: router only,What is the capital of France?,0,openai/gpt-oss-20b,2.6900000000000003e-05,0.6076562404632568,False,False,False,,0.0,True,the capital of france is paris.
+B: router only,What is the capital of Germany?,1,openai/gpt-oss-120b,9.499999999999999e-05,3.461379289627075,False,False,True,too short,0.0,True,the capital of germany is berlin.
+B: router only,Explain what overfitting is in machine learning,2,openai/gpt-oss-120b,7.965000000000001e-05,2.848550796508789,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+B: router only,How do I reverse a string in Python?,3,openai/gpt-oss-20b,0.0001021,0.8220393657684326,False,False,False,,0.0,True,use slicing:    ```python rev = s[::-1] ```    or join the reversed iterator:    ```python rev = ''.
+B: router only,What is the difference between SQL WHERE and HAVING?,4,openai/gpt-oss-120b,9.57e-05,2.8991408348083496,False,False,False,,0.0,True,"**where** filters rows **before** grouping; it can use any column, but not aggregate results.   **ha"
+B: router only,Compare random forest and gradient boosting and say when to use each,5,openai/gpt-oss-120b,0.00014235,2.9643919467926025,False,False,False,,0.0,True,"**random forest** - builds many deep, unpruned trees in parallel and averages their predictions. it'"
+B: router only,Give three tips for a data analyst resume,6,openai/gpt-oss-20b,0.000221,1.0136005878448486,False,False,False,,0.0,True,"1. quantify results: e.g., ""improved data-pipeline speed by 30 %.""   2. list relevant tools: sql, py"
+B: router only,What does RAG stand for in AI?,7,openai/gpt-oss-20b,5.41e-05,0.8046114444732666,False,False,False,,0.0,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a r
+B: router only,Explain step by step how gradient descent works,8,openai/gpt-oss-120b,0.0003705,1.6353843212127686,False,False,False,,0.0,True,1. choose a differentiable loss function l(θ).   2. initialize parameters θ₀ (random or zero).   3. 
+B: router only,What is 15% of 240?,9,openai/gpt-oss-20b,4.91e-05,0.6614212989807129,False,False,False,,0.0,True,15% of 240 is 36.
+B: router only,What is 15% of 250?,10,openai/gpt-oss-20b,4.8599999999999995e-05,0.5654680728912354,False,False,False,,0.0,True,15% of 250 is 37.5.
+B: router only,What is the capital of Australia?,11,openai/gpt-oss-20b,3.04e-05,0.6148536205291748,False,False,False,,0.0,True,the capital of australia is canberra.
+B: router only,What is the capital of Austria?,12,openai/gpt-oss-20b,2.6900000000000003e-05,0.7108395099639893,False,False,False,,0.0,True,the capital of austria is vienna.
+B: router only,Tell me France's capital city,0,openai/gpt-oss-120b,7.575e-05,1.402750015258789,False,False,True,too short,0.0,True,paris is the capital city of france.
+B: router only,Tell me Germany's capital city,1,openai/gpt-oss-20b,2.98e-05,0.5914905071258545,False,False,False,,0.0,True,germany's capital city is berlin.
+B: router only,What does overfitting mean in ML? Explain,2,openai/gpt-oss-120b,9.18e-05,0.7854642868041992,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+B: router only,Python: reverse a string,3,openai/gpt-oss-20b,6.720000000000001e-05,0.7811152935028076,False,False,False,,0.0,True,"use slicing:  ```python s = ""hello"" rev = s[::-1]   # 'olleh' print(rev) ```  `[::-1]` steps backwar"
+B: router only,WHERE vs HAVING in SQL,4,openai/gpt-oss-120b,9.795e-05,2.8509058952331543,False,False,False,,0.0,True,**where** filters rows **before** grouping. it works on individual column values and cannot use aggr
+B: router only,When should I use random forest instead of gradient boosting? Compare them,5,openai/gpt-oss-120b,0.00015525,3.005338668823242,False,False,False,,0.0,True,**use random forest when:**   - you need fast training and easy tuning.   - data has many noisy feat
+B: router only,3 resume tips for data analysts,6,openai/gpt-oss-20b,0.0002058,0.9323630332946777,False,False,False,,0.0,True,"1. quantify achievements: use metrics (e.g., reduced processing time by 30%).   2. highlight technic"
+B: router only,RAG full form in AI,7,openai/gpt-oss-20b,5.3299999999999995e-05,0.64451003074646,False,False,False,,0.0,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a r
+B: router only,Walk me through gradient descent step by step,8,openai/gpt-oss-120b,0.00017175,0.9907553195953369,False,False,False,,0.0,True,1. **initialize** θ (weights) with random values.   2. **compute loss** j(θ) on the training data (e
+B: router only,Calculate 15 percent of 240,9,openai/gpt-oss-20b,6.24e-05,0.8003261089324951,False,False,False,,0.0,True,15 % of 240 equals 0.15 × 240 = 36.
+B: router only,Calculate 15 percent of 250,10,openai/gpt-oss-20b,4.19e-05,0.7856094837188721,False,False,False,,0.0,True,15 % of 250 is 37.5.
+B: router only,Tell me Australia's capital city,11,openai/gpt-oss-20b,2.97e-05,0.5904898643493652,False,False,False,,0.0,True,australia's capital city is canberra.
+B: router only,Tell me Austria's capital city,12,openai/gpt-oss-20b,3.28e-05,0.5833213329315186,False,False,False,,0.0,True,austria's capital city is vienna.
+B: router only,Which city is the capital of France?,0,openai/gpt-oss-20b,5.45e-05,0.7835700511932373,False,False,False,,0.0,True,paris is the capital city of france.
+B: router only,Which city is the capital of Germany?,1,openai/gpt-oss-120b,7.25e-05,1.4199731349945068,False,False,True,too short,0.0,True,berlin is the capital city of germany.
+B: router only,Can you explain overfitting in machine learning models,2,openai/gpt-oss-120b,9.405e-05,0.6917898654937744,False,False,False,,0.0,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+B: router only,What is the way to reverse a string in Python?,3,openai/gpt-oss-20b,0.0001428,0.8511276245117188,False,False,False,,0.0,True,"in python, reverse a string with slicing: `rev = s[::-1]`.   alternatively, use `reversed()` and joi"
+B: router only,How are HAVING and WHERE different in SQL?,4,openai/gpt-oss-20b,0.00016020000000000002,0.9852695465087891,False,False,False,,0.0,True,where filters rows before group by; having filters groups after aggregation. having can use aggregat
+B: router only,Random forest vs gradient boosting comparison and use cases,5,openai/gpt-oss-120b,0.0001629,0.9905366897583008,False,False,False,,0.0,True,"**random forest** - bagged decision trees, each trained on a random subset of data and features.   -"
+B: router only,What are three good tips for writing a data analyst resume?,6,openai/gpt-oss-20b,0.0001014,0.79184889793396,False,False,False,,0.0,True,"1. **quantify achievements** - use numbers (e.g., ""improved reporting speed by 30%"").   2. **highlig"
+B: router only,"In AI, what is RAG short for?",7,openai/gpt-oss-20b,5.22e-05,0.6248352527618408,False,False,False,,0.0,True,rag stands for **retrieval-augmented generation**-a technique that combines a language model with an
+B: router only,How does gradient descent work? Explain in steps,8,openai/gpt-oss-120b,0.00013065,0.9568440914154053,False,False,False,,0.0,True,1. **initialize** θ (weights) with random values.   2. **compute loss** l(θ) on the training data.  
+B: router only,What is fifteen percent of 240?,9,openai/gpt-oss-20b,4.6e-05,0.8058075904846191,False,False,False,,0.0,True,fifteen percent of 240 is 36.
+B: router only,What is fifteen percent of 250?,10,openai/gpt-oss-20b,4.75e-05,0.6663413047790527,False,False,False,,0.0,True,fifteen percent of 250 is 37.5.
+B: router only,Which city is the capital of Australia?,11,openai/gpt-oss-20b,3.2e-05,0.7766530513763428,False,False,False,,0.0,True,the capital of australia is canberra.
+B: router only,Which city is the capital of Austria?,12,openai/gpt-oss-20b,5.6500000000000005e-05,0.8139369487762451,False,False,False,,0.0,True,vienna is the capital city of austria.
+C: router + cache,What is the capital of France?,0,openai/gpt-oss-20b,3.74e-05,0.8237228393554688,False,False,False,,0.0,True,the capital of france is paris.
+C: router + cache,What is the capital of Germany?,1,openai/gpt-oss-120b,7.675e-05,2.1734890937805176,False,False,True,too short,0.6632384061813354,True,the capital of germany is berlin.
+C: router + cache,Explain what overfitting is in machine learning,2,openai/gpt-oss-120b,7.965000000000001e-05,1.2697858810424805,False,False,False,,0.06993154436349869,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+C: router + cache,How do I reverse a string in Python?,3,openai/gpt-oss-20b,0.00015460000000000002,1.0189228057861328,False,False,False,,0.13831989467144012,True,"to reverse a string in python, use slicing:    ```python reversed_str = original[::-1] ```    this c"
+C: router + cache,What is the difference between SQL WHERE and HAVING?,4,openai/gpt-oss-120b,8.745e-05,0.9543869495391846,False,False,False,,0.15332943201065063,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+C: router + cache,Compare random forest and gradient boosting and say when to use each,5,openai/gpt-oss-120b,0.00014084999999999998,1.1569273471832275,False,False,False,,0.16331438720226288,True,"**random forest** - builds many deep, unpruned trees on boot-sampled data and averages their predict"
+C: router + cache,Give three tips for a data analyst resume,6,openai/gpt-oss-20b,0.00019800000000000002,0.9865326881408691,False,False,False,,0.1744547188282013,True,"1) highlight quantifiable achievements, e.g., ""improved reporting speed by 30%.""   2) showcase techn"
+C: router + cache,What does RAG stand for in AI?,7,openai/gpt-oss-20b,5.8099999999999996e-05,0.935624361038208,False,False,False,,0.17985692620277405,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a l
+C: router + cache,Explain step by step how gradient descent works,8,openai/gpt-oss-120b,0.0001785,1.112199306488037,False,False,False,,0.4075906574726105,True,1. **initialize** the model's parameters (weights θ) with random values.   2. **compute loss** l(θ) 
+C: router + cache,What is 15% of 240?,9,openai/gpt-oss-20b,4.51e-05,0.787268877029419,False,False,False,,0.1571316421031952,True,15% of 240 is 36.
+C: router + cache,What is 15% of 250?,10,openai/gpt-oss-20b,5.3099999999999996e-05,0.7175140380859375,False,False,False,,0.8103272318840027,True,15% of 250 is 0.15 × 250 = 37.5.
+C: router + cache,What is the capital of Australia?,11,openai/gpt-oss-20b,3.24e-05,0.7533237934112549,False,False,False,,0.5690864324569702,True,the capital of australia is canberra.
+C: router + cache,What is the capital of Austria?,12,openai/gpt-oss-20b,2.6900000000000003e-05,0.7181649208068848,False,False,False,,0.7210700511932373,True,the capital of austria is vienna.
+C: router + cache,Tell me France's capital city,0,cache,0.0,0.016240835189819336,True,False,False,,0.9091922044754028,True,the capital of france is paris.
+C: router + cache,Tell me Germany's capital city,1,cache,0.0,0.015893936157226562,True,False,False,,0.9086096286773682,True,the capital of germany is berlin.
+C: router + cache,What does overfitting mean in ML? Explain,2,openai/gpt-oss-120b,9.104999999999999e-05,0.8242743015289307,False,False,False,,0.8403427600860596,True,overfitting occurs when a machine-learning model learns the training data too closely-capturing nois
+C: router + cache,Python: reverse a string,3,cache,0.0,0.023293733596801758,True,False,False,,0.9805909395217896,True,"to reverse a string in python, use slicing:  
+
+```python
+reversed_str = original[::-1]
+```  
+
+this c"
+C: router + cache,WHERE vs HAVING in SQL,4,cache,0.0,0.023590087890625,True,False,False,,0.9265232086181641,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+C: router + cache,When should I use random forest instead of gradient boosting? Compare them,5,cache,0.0,0.027524232864379883,True,False,False,,0.9361475706100464,True,"**random forest** - builds many deep, unpruned trees on boot-sampled data and averages their predict"
+C: router + cache,3 resume tips for data analysts,6,cache,0.0,0.021851062774658203,True,False,False,,0.9412344098091125,True,"1) highlight quantifiable achievements, e.g., ""improved reporting speed by 30%.""  
+2) showcase techn"
+C: router + cache,RAG full form in AI,7,openai/gpt-oss-20b,6.53e-05,0.6667084693908691,False,False,False,,0.8027948141098022,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a r
+C: router + cache,Walk me through gradient descent step by step,8,openai/gpt-oss-120b,0.000168,1.0751464366912842,False,False,False,,0.8343946933746338,True,"1. **initialize** parameters θ (e.g., random values).   2. **compute loss** j(θ) on the training dat"
+C: router + cache,Calculate 15 percent of 240,9,cache,0.0,0.01502537727355957,True,False,False,,0.8677958250045776,True,15% of 240 is 36.
+C: router + cache,Calculate 15 percent of 250,10,cache,0.0,0.014933347702026367,True,False,False,,0.8687978982925415,True,15% of 250 is 0.15 × 250 = 37.5.
+C: router + cache,Tell me Australia's capital city,11,cache,0.0,0.016275644302368164,True,False,False,,0.8953577876091003,True,the capital of australia is canberra.
+C: router + cache,Tell me Austria's capital city,12,cache,0.0,0.01566624641418457,True,False,False,,0.9253137111663818,True,the capital of austria is vienna.
+C: router + cache,Which city is the capital of France?,0,cache,0.0,0.016266345977783203,True,False,False,,0.9416358470916748,True,the capital of france is paris.
+C: router + cache,Which city is the capital of Germany?,1,cache,0.0,0.015920162200927734,True,False,False,,0.9378900527954102,True,the capital of germany is berlin.
+C: router + cache,Can you explain overfitting in machine learning models,2,cache,0.0,0.016927003860473633,True,False,False,,0.9445557594299316,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+C: router + cache,What is the way to reverse a string in Python?,3,cache,0.0,0.01796102523803711,True,False,False,,0.9891902208328247,True,"to reverse a string in python, use slicing:  
+
+```python
+reversed_str = original[::-1]
+```  
+
+this c"
+C: router + cache,How are HAVING and WHERE different in SQL?,4,cache,0.0,0.017879486083984375,True,False,False,,0.9321261048316956,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+C: router + cache,Random forest vs gradient boosting comparison and use cases,5,cache,0.0,0.019223928451538086,True,False,False,,0.9255833625793457,True,"**random forest** - builds many deep, unpruned trees on boot-sampled data and averages their predict"
+C: router + cache,What are three good tips for writing a data analyst resume?,6,cache,0.0,0.018785476684570312,True,False,False,,0.9439913034439087,True,"1) highlight quantifiable achievements, e.g., ""improved reporting speed by 30%.""  
+2) showcase techn"
+C: router + cache,"In AI, what is RAG short for?",7,cache,0.0,0.016385793685913086,True,False,False,,0.9242873787879944,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a l
+C: router + cache,How does gradient descent work? Explain in steps,8,cache,0.0,0.01622486114501953,True,False,False,,0.9645727872848511,True,"1. **initialize** the model's parameters (weights θ) with random values.  
+2. **compute loss** l(θ) "
+C: router + cache,What is fifteen percent of 240?,9,cache,0.0,0.019048452377319336,True,False,False,,0.9525930285453796,True,15% of 240 is 36.
+C: router + cache,What is fifteen percent of 250?,10,cache,0.0,0.015671491622924805,True,False,False,,0.9514302015304565,True,15% of 250 is 0.15 × 250 = 37.5.
+C: router + cache,Which city is the capital of Australia?,11,cache,0.0,0.01638340950012207,True,False,False,,0.933497428894043,True,the capital of australia is canberra.
+C: router + cache,Which city is the capital of Austria?,12,cache,0.0,0.01609015464782715,True,False,False,,0.9426735639572144,True,the capital of austria is vienna.
+D: router + cache + number guard,What is the capital of France?,0,openai/gpt-oss-20b,3.04e-05,0.6542086601257324,False,False,False,,0.0,True,the capital of france is paris.
+D: router + cache + number guard,What is the capital of Germany?,1,openai/gpt-oss-120b,7.675e-05,1.4977505207061768,False,False,True,too short,0.6632384061813354,True,berlin is the capital of germany.
+D: router + cache + number guard,Explain what overfitting is in machine learning,2,openai/gpt-oss-120b,8.49e-05,2.815319538116455,False,False,False,,0.06993154436349869,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+D: router + cache + number guard,How do I reverse a string in Python?,3,openai/gpt-oss-20b,0.0001106,0.819127082824707,False,False,False,,0.13831989467144012,True,"use slicing: `rev = s[::-1]`.   example:   ```python s = ""hello"" print(s[::-1])   # outputs: olleh `"
+D: router + cache + number guard,What is the difference between SQL WHERE and HAVING?,4,openai/gpt-oss-120b,8.745e-05,2.8862979412078857,False,False,False,,0.15332943201065063,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+D: router + cache + number guard,Compare random forest and gradient boosting and say when to use each,5,openai/gpt-oss-120b,0.0006298499999999999,4.353347539901733,False,False,False,,0.16331438720226288,True,random forest builds many independent trees on bootstrapped samples and averages their predictions; 
+D: router + cache + number guard,Give three tips for a data analyst resume,6,openai/gpt-oss-20b,9.25e-05,0.7582359313964844,False,False,False,,0.1744547188282013,True,"1. quantify achievements with metrics (e.g., ""improved reporting speed by 30%"").   2. highlight prof"
+D: router + cache + number guard,What does RAG stand for in AI?,7,openai/gpt-oss-20b,5.5599999999999996e-05,0.6049985885620117,False,False,False,,0.17985692620277405,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a r
+D: router + cache + number guard,Explain step by step how gradient descent works,8,openai/gpt-oss-120b,0.0001335,0.9381966590881348,False,False,False,,0.4075906574726105,True,1. **initialize** θ (weights) with random values.   2. **compute loss** l(θ) on the training data (e
+D: router + cache + number guard,What is 15% of 240?,9,openai/gpt-oss-20b,4.46e-05,0.893364667892456,False,False,False,,0.1571316421031952,True,15% of 240 is 36.
+D: router + cache + number guard,What is 15% of 250?,10,openai/gpt-oss-20b,4.81e-05,0.8306093215942383,False,False,False,,0.8103272318840027,True,15% of 250 is 37.5.
+D: router + cache + number guard,What is the capital of Australia?,11,openai/gpt-oss-20b,5.64e-05,0.7196292877197266,False,False,False,,0.5690864324569702,True,the capital of australia is canberra.
+D: router + cache + number guard,What is the capital of Austria?,12,openai/gpt-oss-120b,7.725000000000001e-05,1.27030348777771,False,False,True,too short,0.7210700511932373,True,the capital of austria is **vienna**.
+D: router + cache + number guard,Tell me France's capital city,0,cache,0.0,0.015562772750854492,True,False,False,,0.9091922044754028,True,the capital of france is paris.
+D: router + cache + number guard,Tell me Germany's capital city,1,cache,0.0,0.01646566390991211,True,False,False,,0.9086096286773682,True,berlin is the capital of germany.
+D: router + cache + number guard,What does overfitting mean in ML? Explain,2,openai/gpt-oss-120b,9.18e-05,0.8279063701629639,False,False,False,,0.8403427600860596,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+D: router + cache + number guard,Python: reverse a string,3,cache,0.0,0.01599717140197754,True,False,False,,0.9805909395217896,True,"use slicing: `rev = s[::-1]`.  
+example:  
+```python
+s = ""hello""
+print(s[::-1])   # outputs: olleh
+`"
+D: router + cache + number guard,WHERE vs HAVING in SQL,4,cache,0.0,0.015516996383666992,True,False,False,,0.9265232086181641,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+D: router + cache + number guard,When should I use random forest instead of gradient boosting? Compare them,5,cache,0.0,0.01947617530822754,True,False,False,,0.9361475706100464,True,random forest builds many independent trees on bootstrapped samples and averages their predictions; 
+D: router + cache + number guard,3 resume tips for data analysts,6,cache,0.0,0.01588582992553711,True,False,False,,0.9412344098091125,True,"1. quantify achievements with metrics (e.g., ""improved reporting speed by 30%"").  
+2. highlight prof"
+D: router + cache + number guard,RAG full form in AI,7,openai/gpt-oss-20b,0.0001418,0.8713412284851074,False,False,False,,0.8027948141098022,True,rag stands for **retrieval-augmented generation**-a method that combines retrieving relevant documen
+D: router + cache + number guard,Walk me through gradient descent step by step,8,openai/gpt-oss-120b,0.00015525,3.1930954456329346,False,False,False,,0.8343946933746338,True,"**gradient descent - step-by-step**  1. **initialize** parameters θ (e.g., random values).   2. **co"
+D: router + cache + number guard,Calculate 15 percent of 240,9,cache,0.0,0.10409927368164062,True,False,False,,0.8677958250045776,True,15% of 240 is 36.
+D: router + cache + number guard,Calculate 15 percent of 250,10,cache,0.0,0.0881357192993164,True,False,False,,0.8687978982925415,True,15% of 250 is 37.5.
+D: router + cache + number guard,Tell me Australia's capital city,11,cache,0.0,0.12483763694763184,True,False,False,,0.8953577876091003,True,the capital of australia is canberra.
+D: router + cache + number guard,Tell me Austria's capital city,12,cache,0.0,0.1268784999847412,True,False,False,,0.9253137111663818,True,the capital of austria is **vienna**.
+D: router + cache + number guard,Which city is the capital of France?,0,cache,0.0,0.13704538345336914,True,False,False,,0.9416358470916748,True,the capital of france is paris.
+D: router + cache + number guard,Which city is the capital of Germany?,1,cache,0.0,0.14748287200927734,True,False,False,,0.9378900527954102,True,berlin is the capital of germany.
+D: router + cache + number guard,Can you explain overfitting in machine learning models,2,cache,0.0,0.1036841869354248,True,False,False,,0.9445557594299316,True,overfitting occurs when a model learns the training data's noise and specific patterns instead of th
+D: router + cache + number guard,What is the way to reverse a string in Python?,3,cache,0.0,0.18693947792053223,True,False,False,,0.9891902208328247,True,"use slicing: `rev = s[::-1]`.  
+example:  
+```python
+s = ""hello""
+print(s[::-1])   # outputs: olleh
+`"
+D: router + cache + number guard,How are HAVING and WHERE different in SQL?,4,cache,0.0,0.13441729545593262,True,False,False,,0.9321261048316956,True,**where** filters rows before any grouping or aggregation occurs. it works on individual table recor
+D: router + cache + number guard,Random forest vs gradient boosting comparison and use cases,5,cache,0.0,0.1046137809753418,True,False,False,,0.9255833625793457,True,random forest builds many independent trees on bootstrapped samples and averages their predictions; 
+D: router + cache + number guard,What are three good tips for writing a data analyst resume?,6,cache,0.0,0.09046387672424316,True,False,False,,0.9439913034439087,True,"1. quantify achievements with metrics (e.g., ""improved reporting speed by 30%"").  
+2. highlight prof"
+D: router + cache + number guard,"In AI, what is RAG short for?",7,cache,0.0,0.06545591354370117,True,False,False,,0.9242873787879944,True,rag in ai stands for **retrieval-augmented generation**. it's a model architecture that combines a r
+D: router + cache + number guard,How does gradient descent work? Explain in steps,8,cache,0.0,0.025682687759399414,True,False,False,,0.9645727872848511,True,"1. **initialize** θ (weights) with random values.  
+2. **compute loss** l(θ) on the training data (e"
+D: router + cache + number guard,What is fifteen percent of 240?,9,cache,0.0,0.024832963943481445,True,False,False,,0.9525930285453796,True,15% of 240 is 36.
+D: router + cache + number guard,What is fifteen percent of 250?,10,cache,0.0,0.023990392684936523,True,False,False,,0.9514302015304565,True,15% of 250 is 37.5.
+D: router + cache + number guard,Which city is the capital of Australia?,11,cache,0.0,0.023891925811767578,True,False,False,,0.933497428894043,True,the capital of australia is canberra.
+D: router + cache + number guard,Which city is the capital of Austria?,12,cache,0.0,0.024996280670166016,True,False,False,,0.9426735639572144,True,the capital of austria is **vienna**.
